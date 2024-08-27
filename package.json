@@ -1,0 +1,31 @@
+{
+  "name": "aprendendo-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "20.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dsx": "^0.0.5",
+    "prisma": "^5.18.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "chokidar": "^3.6.0",
+    "core-js": "^3.38.1",
+    "fastify": "^4.28.1",
+    "rimraf": "^6.0.1",
+    "uuid": "^10.0.0"
+  }
+}
